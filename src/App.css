@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: #e4e6eb;
+  letter-spacing: 3px;
+  background-color: rgb(45, 46, 50);
+}
+
+@media(max-width:768px){
+    html{
+      font-size: 12px;
+    }
+}
+@media(max-width:400px){
+  html{
+    font-size: 10px;
+  }
+}
