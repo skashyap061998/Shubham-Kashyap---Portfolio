@@ -7,7 +7,7 @@ export function Contact(){
             <div className="left">
                 <h1>Let's make something amazing <br /> together.</h1>
                 <h1>Starts by saying hi</h1>
-                <a target="_blank" rel="noreferrer" href="./Shubham.docx.pdf"><button>Download Resume</button></a>
+                <a target="_blank" rel="noreferrer" href="../Shubham.docx.pdf"><button>Download Resume</button></a>
             </div>
             <div className="right">
                  <p>Information</p>
