@@ -20,7 +20,7 @@ export function Navbar(){
             </div>
             <div className="menuContainer" id="menuContainerId">
                 <Link to="/"><span >Home</span></Link>
-                <Link to="/about"><span >About</span></Link>
+                <Link to="/about"><span >Skills</span></Link>
                 <Link to="/projects"><span >Projects</span></Link>
                 <Link to="/contact"><span >Contact</span></Link>
             </div>
@@ -31,7 +31,7 @@ export function Navbar(){
             <button onClick={burgerClick} className="menuIcon">
             <Menu right isOpen={isopen} className="burgerMenu">
                 <Link id="home" className="menu-item" to="/">Home</Link>
-                <Link id="about" className="menu-item" to="/about">About</Link>
+                <Link id="about" className="menu-item" to="/about">Skills</Link>
                 <Link id="projects" className="menu-item" to="/projects">Projects</Link>
                 <Link id="contact" className="menu-item" to="/contact">Contact</Link>
             </Menu>

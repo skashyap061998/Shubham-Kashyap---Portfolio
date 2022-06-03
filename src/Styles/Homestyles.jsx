@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HomeDiv = styled.div`
 display: flex;
-height: 100vh;
+height: 160vh;
 
 background-color: rgb(45, 46, 50);
 

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { HomeDiv } from "../../Styles/Homestyles";
+import { AbtMe } from "../../Styles/AboutMeStyles"
+
 
 export function Home() {
   return (
@@ -24,6 +26,19 @@ export function Home() {
           It's nice to meet you. I design and code <br />
           beautifully and I love what I do.
         </p>
+        <AbtMe>
+        <div className="details">
+            <h1>About Me</h1>
+            <div>
+                <p>"Creativity is Intelligence having Fun...!"</p>
+                <h6>Highly Motivated web developer with the ability to write efficient
+codes using the MERN stack. <br /> Having built several projects
+in this field, <br /> I am seeking an opportunity to grow and learn
+from other experienced team members.</h6>
+            </div>
+
+            </div>
+            </AbtMe>
         <Link to="../Contact/contact">LET'S CONNECT!</Link>
       </div>
       <div className="profilePhoto">

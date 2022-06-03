@@ -4,7 +4,7 @@ export function AboutMe(){
 
     return (
         <AbtMe>
-            <div className="details">
+            {/* <div className="details">
             <h1>About Me</h1>
             <div>
                 <p>"Creativity is Intelligence having Fun...!"</p>
@@ -14,7 +14,7 @@ in this field, <br /> I am seeking an opportunity to grow and learn
 from other experienced team members.</h6>
             </div>
 
-            </div>
+            </div> */}
             <h1>Skills</h1>
             <div className="skills">
                 <Skill url='../../../Logos/javascript.png' title="JavaScript"></Skill>
