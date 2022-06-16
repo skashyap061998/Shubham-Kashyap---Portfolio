@@ -65,7 +65,7 @@ export function Projects() {
         },
       ],
       code: "https://github.com/skashyap061998/Shopbop-Clone-Project",
-      demo: "https://glassdoor-clone.netlify.app/",
+      demo: "https://shopbop-clone-project.netlify.app/",
     },
   ];
   return (
