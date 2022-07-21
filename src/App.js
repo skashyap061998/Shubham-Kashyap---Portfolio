@@ -1,27 +1,34 @@
+import React from 'react';
 
-import './App.css';
-import { Navbar } from './Components/Navbar/Navbar';
-import { Route, Switch } from 'react-router';
-import { Home } from './Components/Home/Home';
-import { AboutMe } from './Components/AboutMe/AboutMe'
-import { Projects } from './Components/Projects/Projects';
-import { Contact } from './Components/Contact/Contact';
+// import components
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Brands from './components/Brands';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
+import Services from './components/Services';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Testimonials from './components/Testimonials';
+import BackTopBtn from './components/BackTopBtn';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Navbar/>
-      
-      <Switch>
-
-      <Route exact path="/"><Home/></Route>
-      <Route path="/about"><AboutMe/></Route>
-      <Route path="/projects"><Projects/></Route>
-      <Route path="/contact"><Contact/></Route>
-
-      </Switch>
+    <div className='bg-white relative'>
+      <Header />
+      <Hero />
+      {/* <Brands /> */}
+      <About />
+      <Skills />
+      <Portfolio />
+      {/* <Services /> */}
+      {/* <Testimonials /> */}
+      <Contact />
+      {/* <Footer /> */}
+      <BackTopBtn />
     </div>
   );
-}
+};
 
 export default App;
