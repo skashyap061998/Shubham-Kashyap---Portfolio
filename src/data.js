@@ -21,8 +21,8 @@ import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
 import Project1 from './assets/img/projects/eBay2.png';
-import Project2 from './assets/img/projects/shopbop1.jpeg';
-import Project3 from './assets/img/projects/sugarcosmatic.jpeg';
+import Project2 from './assets/img/projects/trackingtime.jpeg';
+import Project3 from './assets/img/projects/nykaa.jpeg';
 import Project4 from './assets/img/projects/p4.webp';
 import Project5 from './assets/img/projects/p5.webp';
 import Project6 from './assets/img/projects/p6.webp';
@@ -116,28 +116,28 @@ export const projectsData = [
     description:"Clone of an e-commerce website eBay that offers products in many categories to buy and also to sell products on eBay market sites.",
   
     code:"https://github.com/skashyap061998/eBay-clone",
-    demo:"https://lighthearted-boba-40e862.netlify.app/",
+    demo:"https://shubham-ebay-clone.netlify.app/",
     TechStack: "TeckStack : React || Redux || Material-Ui || Bootstrap || React-Slick ",
   },
   {
     id: '2',
     image: Project2,
-    name: 'Shopbop',
+    name: 'TrackingTime',
     // category: 'UI/UX design',
-    description:"Shopbop is a US online fashion apparel and accessories shop opened in 1999.",
-    code:"https://github.com/skashyap061998/Shopbop-Clone-Project",
-    demo:"https://shopbop-clone-project.netlify.app/",
-    TechStack: "TeckStack :HTML5 || CSS3 || JAVASCRIPT || Bootstrap || React-Slick ",
+    description:"Tracking time is a time tracking software that helps businesses manage their projects and improve productivity.",
+    code:"https://github.com/PrathyushNair/stoic-sack-3017",
+    demo:"https://stoic-sack-3017.netlify.app/",
+    TechStack: "TeckStack : React || Redux ||  Node.js || Express || MongoDb || Mongoose ",
   },
   {
     id: '3',
     image: Project3,
-    name: 'SUGAR Cosmetics',
+    name: 'Nykaa',
     // category: 'branding',
-    description:"This is a clone of SUGAR Cosmetics. It is a cruelty-free makeup brand that is high on style and higher on performance",
-    code:"https://github.com/skashyap061998/Sugar_Cosmetic",
-    demo:"https://sugarcosmetics-app.netlify.app/",
-    TechStack: "TeckStack : HTML5 || CSS3 || JAVASCRIPT",
+    description:"Nykaa is an Indian e-commerce company,It sells beauty, wellness and fashion products across websites, mobile apps.",
+    code:"https://github.com/AFFAN-AHMAD/Nykaa",
+    demo:"https://funny-week-7983-affan-ahmad.vercel.app/",
+    TechStack: "TeckStack : React || Redux || Node.js || Express || MongoDb || Mongoose",
   },
  
 ];
