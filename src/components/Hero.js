@@ -32,7 +32,7 @@ const Hero = () => {
               Work with me
             </button></a> */}
             
-           <a href="https://drive.google.com/file/d/1yDLgjibLWfuFwAmhxiwHkTiMnEfn4X2m/view?usp=sharing" target={'_blank'} rel="noreferrer"><button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all m-auto'>Resume</button></a> 
+           <a href="https://drive.google.com/file/d/1YVgDIimElaencmL7q6lXDHx3IwGR9TGT/view?usp=sharing" target={'_blank'} rel="noreferrer"><button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all m-auto'>Resume</button></a> 
             </div>
            
           </div>
