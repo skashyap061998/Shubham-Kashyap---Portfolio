@@ -113,8 +113,8 @@ export const projectsData = [
     // category: 'branding',
     description:
       "Nykaa is an Indian e-commerce company,It sells beauty, wellness and fashion products across websites, mobile apps.",
-    code: "https://github.com/AFFAN-AHMAD/Nykaa",
-    demo: "https://funny-week-7983-affan-ahmad.vercel.app/",
+    code: "https://github.com/AFFAN-AHMAD/Nykaa-clone",
+    demo: "https://warm-griffin-d8b94a.netlify.app/",
     TechStack:
       "TeckStack : React || Redux || Node.js || Express || MongoDb || Mongoose",
   },
